@@ -31,6 +31,7 @@ namespace Prue_GitHub
         {
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
             // 
             // button1
@@ -50,11 +51,20 @@ namespace Prue_GitHub
             this.comboBox1.Size = new System.Drawing.Size(186, 21);
             this.comboBox1.TabIndex = 1;
             // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(33, 92);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(135, 19);
+            this.checkedListBox1.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(334, 268);
+            this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -67,6 +77,7 @@ namespace Prue_GitHub
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
 }
 

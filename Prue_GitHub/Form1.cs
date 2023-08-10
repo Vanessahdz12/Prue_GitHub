@@ -15,6 +15,8 @@ namespace Prue_GitHub
         public Form1()
         {
             InitializeComponent();
+             InitializeComponent();
+
         }
     }
 }

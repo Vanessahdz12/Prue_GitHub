@@ -16,6 +16,7 @@ namespace Prue_GitHub
         {
             InitializeComponent();
              InitializeComponent();
+                 InitializeComponent();
 
         }
     }
